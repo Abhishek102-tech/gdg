@@ -1,0 +1,23 @@
+:root {
+  --color-bg: cyan;
+  --color-text: magenta;
+  --color-primary: purple;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  background-image: url('assets/cyberpunk-desktop.jpg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
