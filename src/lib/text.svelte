@@ -27,12 +27,16 @@ arrow_forward_ios
         text-transform: uppercase;
         margin: 0;
         color: var(--color-text);
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
     }
 
     p {
         color: var(--color-text);
         font-size: 1.5rem;
         margin: 0;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
     }
     p span {
         font-size: 1.3rem;

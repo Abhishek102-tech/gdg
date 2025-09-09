@@ -32,6 +32,9 @@
         color: var(--color-text);
         font-size: 1.5rem;
         margin: 0;
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 400;
+        font-style: normal;
     }
 
     ul {
@@ -106,6 +109,9 @@
         align-items: center;
         justify-content: center;
         box-shadow: 0 0 6px 4px #800080;
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 400;
+        font-style: normal;
     }
     li:hover {
         box-shadow: 0 0 10px 6px #FF0099, 0 0 10px 7px #800080, 0 0 12px 8px #1E90FF;

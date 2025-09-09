@@ -32,6 +32,9 @@
         color: var(--color-text);
         font-size: 2rem;
         margin: 0;
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 400;
+        font-style: normal;
     }
 
     ul {
@@ -63,7 +66,7 @@
             transition: transform 0.5s cubic-bezier(0.4, 0.2, 0.2, 1);
     }
         ul li a img:hover {
-            transform:  rotateY(30deg) rotateX(20deg) rotateZ(10deg) scale(1.05);
+            transform:  rotateY(10deg) rotateX(-10deg) rotateZ(-5deg);
             box-shadow: 0 0 15px var(--neon-pink), 0 0 30px var(--neon-pink), 0 0 45px var(--neon-pink);
         }
     @media (max-width: 600px) {
