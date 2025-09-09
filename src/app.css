@@ -1,7 +1,12 @@
 :root {
-  --color-bg: cyan;
-  --color-text: magenta;
-  --color-primary: purple;
+  --color-text: #00FFFF;
+  --COLOR-BORDER: #00BFFF;
+  --color-projects : #FF00FF;
+  --color-glow: #FF0099;
+  --cyber-purple: #800080;
+  --neon-violet: #8A2BE2;
+  --neon-pink: #FF1493;
+  --neon-blue: #1E90FF;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,8 +21,17 @@ body{
   background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
